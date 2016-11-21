@@ -1,0 +1,9 @@
+# This is a comment
+
+# Common
+Black       : #000000
+White       : ffffff
+Translucent : 0x111111cc
+
+# Body
+Title       : #ff0000
