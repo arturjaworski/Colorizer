@@ -1,5 +1,8 @@
 # Colorizer
 
+[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/Colorizer.svg)](https://img.shields.io/cocoapods/v/Colorizer.svg)
+[![Platform](https://img.shields.io/cocoapods/p/Colorizer.svg?style=flat)](http://cocoadocs.org/docsets/Colorizer)
+
 Colorizer is a tool written in Swift to auto-generate a Apple's Color Palette file (`.clr` file) from `.txt` file.
 
 In result you can:
@@ -11,11 +14,15 @@ In result you can:
 
 ## Installation
 
-Install Colorizer via [Homebrew](http://brew.sh) just by:
+* **Via CocoaPods**
 
-```
-brew install arturjaworski/formulae/colorizer
-```
+  Simply a `pod 'Colorizer'` to your `Podfile`.
+
+  Now you can use Colorizer in Build Phases invoking `$PODS_ROOT/Colorizer/bin/colorizer`.
+
+* **Via [Homebrew](http://brew.sh)**
+
+  You can install Colorizer just by: `brew install arturjaworski/formulae/colorizer`
 
 ## Usage
 
@@ -42,7 +49,7 @@ Title       : #ff0000
 
 2. Share your `.txt` files in your project directory.
 
-3. Integrate Colorizer with your Xcode project to regenerate `.clr` file on every build using "Run Script Phase".
+3. Integrate Colorizer with your Xcode project to regenerate `.clr` file on every build using Build Phases.
 
 4. Install your color palette in your system placing it in `~/Library/Colors/`.
 
