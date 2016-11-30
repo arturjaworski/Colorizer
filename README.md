@@ -9,6 +9,14 @@ In result you can:
 
 <img src="Examples/xcode1.png" width="646">
 
+## Installation
+
+Install Colorizer via [Homebrew](http://brew.sh) just by:
+
+```
+brew install arturjaworski/formulae/colorizer
+```
+
 ## Usage
 
 ```sh

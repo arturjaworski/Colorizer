@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "https://github.com/arturjaworski/Colorizer"
-  s.license      = "MIT"
+  s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Artur Jaworski" => "kontakt@arturjaworski.pl" }
 
   s.source       = { :http => "https://github.com/arturjaworski/Colorizer/releases/download/#{s.version}/colorizer-#{s.version}.zip" }
