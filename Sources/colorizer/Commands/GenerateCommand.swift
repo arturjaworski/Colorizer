@@ -7,7 +7,7 @@ class GenerateCommand: Command {
 
     let name = "generate"
     let shortDescription = "Generating CLR pallete (.clr file) from .txt file."
-    let signature = "<InputFile> <OutputFile>"
+    let signature = "<input-file> <output-file>"
 
     enum CommandError: Error {
         case noInputFile
@@ -15,15 +15,15 @@ class GenerateCommand: Command {
         
         var description: String {
             switch self {
-            case .noInputFile: return "InputFile do not exists. Please provide .txt file."
-            case .invalidInputFile: return "InputFile is invalid. Please provide valid .txt file."
+            case .noInputFile: return "<input-file> do not exists. Please provide .txt file."
+            case .invalidInputFile: return "<input-file> is invalid. Please provide valid .txt file."
             }
         }
     }
 
     func execute(arguments: CommandArguments) throws {
         do {
-            let inputFilePath = Path(arguments.requiredArgument("InputFile"))
+            let inputFilePath = Path(arguments.requiredArgument("input-file"))
             if !inputFilePath.isFile {
                 throw CommandError.noInputFile
             }
@@ -44,7 +44,7 @@ class GenerateCommand: Command {
                 throw CommandError.invalidInputFile
             }
     
-            let outputFileString = arguments.requiredArgument("OutputFile")
+            let outputFileString = arguments.requiredArgument("output-file")
             let colorList = NSColorList(name: outputFileString)
             for (name, color) in parser.colors {
                 colorList.setColor(color, forKey: name)
