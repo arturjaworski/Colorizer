@@ -1,6 +1,6 @@
 # This project is no longer maintained
 
-Please check [Named Colors](https://blog.zeplin.io/asset-catalog-colors-on-xcode-9-c4fdccc0381a) (available from Xcode 9). It's possible to use it with [`SwiftGen`](https://github.com/AliSoftware/SwiftGen/)
+Please check [Named Colors](https://blog.zeplin.io/asset-catalog-colors-on-xcode-9-c4fdccc0381a) (available from Xcode 9). It's possible to use it with [`SwiftGen`](https://github.com/AliSoftware/SwiftGen/).
 
 # Colorizer
 
