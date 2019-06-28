@@ -1,3 +1,7 @@
+# This project is no longer maintained
+
+Please check [Named Colors available from Xcode 9](https://blog.zeplin.io/asset-catalog-colors-on-xcode-9-c4fdccc0381a). It's possible to use it with [`SwiftGen`](https://github.com/AliSoftware/SwiftGen/)
+
 # Colorizer
 
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/Colorizer.svg)](https://img.shields.io/cocoapods/v/Colorizer.svg)
